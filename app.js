@@ -20,9 +20,7 @@
         // Q5
         console.log("Hello...I can run JS trough my web browser console");
         
-        // Q9
-        var logo = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
-        alert(logo);
+        
 
         // ===================================
         // Chapter 2: Variables for Strings
@@ -65,6 +63,9 @@
         // Q8 (Output to browser)
         document.write("<h2>Chapter 2, Question 8:</h2>");
         document.write("Yah! I can write HTML content through JavaScript");
+        // Q9
+        var logo = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
+        alert(logo);
         
         
         // ===================================
@@ -110,7 +111,9 @@
 
 // Chp:4
 // Q1
+ 
 var myname="mohib", age=17, city="karachi";
+ document.write("<h2>Chapter 4, Question 01:</h2>");
 document.write(myname + "<br>" +age + "<br>" +city + "<br>");
 // Q2
 var userName = "Mohib";
@@ -118,12 +121,29 @@ var my_age = 18;
 var $total = 500;
 var _score = 90;
 var item1 = "Book";
+ document.write("<h2>Chapter 4, Question 2:</h2>");
 document.write(userName + "<br>");
 document.write(my_age + "<br>");
 document.write($total + "<br>");
 document.write(_score + "<br>");
 document.write(item1 + "<br>");
+ document.write("<h2>Chapter 4, Question 2 ii):</h2>");
+document.write("1name (Cannot start with number)<br>");
+document.write(" my name (Spaces not allowed) <br> ");
+document.write("user-name (Hyphens not allowed) <br>");
+document.write("var (Reserved keyword) <br>");
+document.write("@total (Special character not allowed) <br>");
 
+document.write("<h2>Chapter 4, Question 3:</h2>");
+    document.write("<h1>Rules for naming JS variables</h1>");
 
+    document.write("<p> Variable names can only contain letters, numbers, $ and _ .<br>");
+    document.write("For example: <b>$my_1stVariable</b></p>");
 
+    document.write("<p> Variables must begin with a letter, $ or _. <br>");
+    document.write("For example: <b>$name</b>, <b>_name</b> or <b>name</b></p>");
+
+    document.write("<p> Variable names are case <b>sensitive</b>.</p>");
+
+    document.write("<p> Variable names should not be JS <b>keywords</b>.</p>");
 
